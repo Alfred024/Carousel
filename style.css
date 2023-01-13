@@ -1,0 +1,66 @@
+
+.hi-slide{
+    position: relative;
+    width: 80%;
+    height: fit-content;
+    margin: 30px auto;
+}
+.btn{
+    position: absolute;
+    top: 46%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 3;
+}
+
+.hi-prev{
+    left: 17%;
+}
+.hi-next{
+    right: 17%;
+}
+.ul{
+    list-style: none;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin:0px;
+    padding: 0;
+}
+
+.ul li{
+    position: absolute;
+    background-color: lightcoral;
+    transition: 1s;
+}
+
+.cards{
+    width: 260px;
+    height: 300px;
+}
+
+.left{
+    opacity: 0.4;
+    left: 0%;
+    top: 25%;
+    z-index: -2;
+    transform: scale(0.9);
+}
+.middle{
+    /* left: calc(50vw); */
+    top: 25%;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+}
+.right{
+    opacity: 0.4;
+    right: 0%;
+    top: 25%;
+    z-index: -2;
+    transform: scale(0.9);
+}
+
